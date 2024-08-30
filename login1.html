@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Click and Login</title>
+    <style>
+        body {
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #000303;
+            font-family: Arial, sans-serif;
+        }
+        #image {
+            cursor: pointer;
+        }
+        .login-container {
+            display: none;
+            border: 100px solid #0a0000;
+            padding: 20px;
+            background-color: #04862d;
+            border-radius: 20px;
+        }
+        .login-container input {
+            display: block;
+            margin-bottom: 10px;
+            width: 300px;
+            padding: 8px;
+        }
+    </style>
+</head>
+<body>
+    <img id="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTZarGhjRN_N582oKs24QiIfDevma5WaDOtQ&s" alt="Click Me" width="200">
+    <div class="login-container" id="login-container">
+        <form id="login-form">
+            <input type="text" id="username" placeholder="Username" required>
+            <input type="password" id="password" placeholder="Password" required>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+
+    <script>
+        document.getElementById('image').addEventListener('click', function() {
+            document.getElementById('image').style.display = 'none';
+            document.getElementById('login-container').style.display = 'block';
+        });
+
+        // Handle login form submission
+        document.getElementById('login-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+            
+            // Simulate successful login
+            alert('Login successful!');
+            
+            // Redirect to the provided link
+            window.location.href = 'https://www.youtube.com/'; // Replace with your desired link
+        });
+    </script>
+</body>
+</html>
