@@ -1,0 +1,56 @@
+*{
+    background-color: rgb(16, 1, 1);
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      
+      
+    }
+    nav .logo img{
+      object-fit: contain;
+      
+   }
+    nav{
+      background-color:rgb(255, 122, 197);
+      display: flex;
+      padding: 10px 20px;
+      justify-content: space-between;
+      margin: 20px;
+   }
+    nav .logo1{
+      display: flex;
+      padding: 10px 20px;
+    }
+    nav .logo1 .home{
+     display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 5px;
+    margin: 5px;
+    text-decoration: none;
+    cursor: pointer;
+     
+    }
+    .video{
+      background-color: rgb(228, 102, 173);
+      margin: 20px;
+      padding: 20px;
+      text-align: center;
+      justify-content: center;
+    }
+    h1 span{
+      margin: 10px 10px;
+      color: rgb(216, 38, 189);
+      text-align: center;
+      align-content: center center;
+    }
+    .video p{
+      color: rgb(216, 38, 189);
+      text-align: center;
+      align-content: center center;
+    }
+    iframe{
+      text-align: center;
+      padding-top: 20px;
+  
+    }
