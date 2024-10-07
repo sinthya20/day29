@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #111;
+
+}
+
+.b {
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    animation: crc 9s infinite;
+    position: relative;
+
+}
+
+@keyframes crc {
+    0% {
+        top: 0%;
+        left: 0%;
+        background-color: aquamarine;
+    }
+
+    25% {
+        top: 0%;
+        left: 1410px;
+        background-color: rgb(74, 204, 244);
+    }
+
+    50% {
+        top: 610px;
+        left: 1410px;
+        background-color: rgb(208, 127, 255);
+
+    }
+
+    75% {
+        top: 610px;
+        left: 0%;
+        background-color: rgb(250, 48, 88);
+    }
+
+    100% {
+        left: 0px;
+        top: 0px;
+        background-color: blue;
+    }
+}
