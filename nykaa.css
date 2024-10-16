@@ -1,0 +1,188 @@
+*{
+  background-color: rgb(0, 0, 0);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+  }
+  nav .logo img{
+    object-fit: contain;
+    background-color: transparent;
+    max-width: max-content;
+    
+ }
+  nav{
+    background-color:rgb(7, 6, 0);
+    box-shadow: 0px 0px 10px rgb(170, 154, 8);
+    display: flex;
+    padding: 5px 5px;
+    justify-content: space-between;
+    margin: 20px;
+    height: 70px;
+ }
+  nav .logo1{
+    display: flex;
+    size: 10px;
+    background-color: transparent;
+    color: rgb(237, 216, 29);
+    border-color: rgba(0, 0, 0, 0);
+    box-shadow: 0px 0px 10px rgb(170, 154, 8);
+
+
+  }
+  nav .logo1 .home{
+   display: block;
+  color: hsl(51, 83%, 57%);
+  text-align: center;
+  padding: 10px 5px;
+  margin: 5px;
+  text-decoration: none;
+  cursor: pointer;
+   
+  }
+  .video{
+    background-color: rgb(0, 0, 0);
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+  }
+  h1 span{
+    margin: 10px 10px;
+    color: rgb(236, 198, 60);
+    align-content: center center;
+  }
+  .card-container {
+    overflow-y: hidden;
+    overflow-x: scroll;
+    margin:1% 0.5%;
+    display: flex;
+    text-align: center;
+   
+    border-width: 1000px;
+}
+
+/* Card Styles */
+.card {
+    background-color: #000000;
+    box-sizing: content-box;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin: 20px 30px;
+    transition: transform 420ms;
+    
+    
+    
+}
+
+.card-container .card img{
+    width: 200px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+    object-fit: contain;
+}
+
+.card h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.card p {
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+
+/* Hover Effects */
+.card:hover {
+    transform: scale(1.09);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Transition Effects */
+.card {
+    transition: all 0.3s ease-in-out;
+    
+}
+.card::-webkit-scrollbar{
+  display: none;
+}
+h1 .gold{
+  color: rgb(236, 198, 60);
+}
+.circle{
+  overflow-y: hidden;
+    overflow-x: auto;
+    margin:1% 0.5%;
+    display: flex;
+    text-align: center;
+    border-width: 100px;
+
+}
+.block{
+  background-color: #000000;
+    box-sizing: content-box;
+    padding: 3px;
+    border: 1px solid #000000;
+    box-shadow: 0px 0px 10px rgb(170, 154, 8);
+    border-radius: 100%;
+    margin: 10px 20px;
+    transition: transform 420ms;
+    width: auto;
+    height: auto;
+    display: block;
+}
+.circle .block img{
+  object-fit: cover;
+  object-fit: contain;
+  border-radius: 100%;
+
+}
+footer {
+  background-color: #000000;
+  color: #fff;
+  padding: 20px;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.about-us, .jewelry-categories, .social-media {
+  flex-basis: 30%;
+  margin: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #cccccc00;
+}
+
+.copyright {
+  text-align: center;
+  margin-top: 20px;
+}
