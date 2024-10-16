@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif sans-serif;
 }
 
 body {
@@ -9,11 +11,10 @@ body {
 
 }
 nav .logo{
- color: aqua;
+ color: rgb(0, 255, 247);
  background-color: transparent;
  display: inline;
  font-size: 30px;
- font-style: italic;
 }
 nav{
   background-color:rgb(0, 0, 0);
@@ -42,45 +43,116 @@ margin: 5px;
 text-decoration: none;
 cursor: pointer;
 background-color: transparent;
-font-style: italic;
 font-weight: 200;
 font-size: 15px;
+border-color: transparent;
 }
 
-.picture{
+.container .picture{
     position: relative;
     background-color: rgb(0, 255, 247);
-    height: 400px;
-    width: 400px;
+    height: 450px;
+    width: 450px;
     border-radius: 50%;
     position: relative;
     top: 5px;
-    left: 900px;
-    box-shadow: 0px 0px 10px rgb(0, 255, 247);
+    left: 70px;
+    box-shadow: 0px 0px 10px rgb(0, 255, 247),
+    0px 0px 10px  rgb(0, 255, 247),
+    0px 0px 10px  rgb(0, 255, 247);
 }
 .picture .circle img{
     object-fit: cover;
     object-fit: contain;
     border-radius: 100%;
-    height: 400px;
-    width: 400px;
+    height: 450px;
+    width: 450px;
   }
-  .intro{
+  .container .intro{
     display: inline-block;
+    animation: slideleft 1s ease forwards;
+    animation-delay: 1s;
   }
   .intro .content{
     display: inline;
     font-size: 50px;
-    font-style: italic;
     color: white;
     justify-content: center center;
+    animation: slideleft 1s ease forwards;
+    animation-delay: 1s;
   }
   .container{
     color: aquamarine;
     background-color: #000000;
     box-sizing: content-box;
-    padding: 100px;
-    border: 1px solid aqua;
-    margin: 5px 10px;
+    padding: 90px;
+    border: 1px solid rgb(0, 0, 0);
+    margin: 2px 4px;
     box-shadow: 0px 0px 10px rgb(0, 255, 247);
+    display: flex;
+    margin: 20px;
   }
+  .container .intro .content2{
+    color: aliceblue;
+    font-size: 25px;
+    align-content: center;
+  }
+  .container .intro .content span{
+    color: rgb(0, 255, 247); ;
+  }
+  .media {
+    position: absolute;
+    height: 40px;
+    width: 300px;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+
+  }
+  .media a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid  rgb(0, 255, 247);
+    border-radius: 50%;
+    font-size: 20px;
+    color:  rgb(0, 255, 247);
+    text-decoration: none;
+    margin: 10px;
+  }
+  .education{
+    color:rgb(0, 255, 247);
+    background-color: #000000;
+    box-sizing: content-box;
+    padding: 90px;
+    border: 1px solid rgb(0, 0, 0);
+    margin: 2px 4px;
+    box-shadow: 0px 0px 10px rgb(0, 255, 247);
+    display: flex;
+    margin: 20px;
+  }
+  .education ed{
+    align-items: center;
+
+  }
+  .card {
+    background-color: #000000;
+    box-sizing: content-box;
+    padding: 20px;
+    border: 1px solid  rgb(0, 255, 247);
+    border-radius: 10px;
+    margin: 20px 30px;
+    transition: transform 420ms; 
+}
+.card1 {
+  background-color: #000000;
+  box-sizing: content-box;
+  padding: 20px;
+  border: 1px solid  rgb(0, 255, 247);
+  border-radius: 10px;
+  margin: 20px 30px;
+  transition: transform 420ms; 
+}
