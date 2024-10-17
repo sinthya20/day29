@@ -160,3 +160,14 @@ border-color: transparent;
 .edu1{
   font-size: 20px;
 }
+.services{
+  color:rgb(0, 255, 247);
+  background-color: #000000;
+  box-sizing: content-box;
+  padding: 90px;
+  border: 1px solid rgb(0, 0, 0);
+  margin: 2px 4px;
+  box-shadow: 0px 0px 10px rgb(0, 255, 247);
+
+  margin: 20px;
+}
